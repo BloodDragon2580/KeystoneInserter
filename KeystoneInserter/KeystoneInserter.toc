@@ -1,0 +1,7 @@
+## Interface: 90200
+## Title:|cffd6266cKeystoneInserter|r
+## Author: BloddDragon2580
+## Version: 1.0
+## Notes: Your key stone will be inserted automatically
+
+core.lua
