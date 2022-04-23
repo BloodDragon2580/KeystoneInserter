@@ -127,7 +127,7 @@ KeystoneButton:SetScript('OnEvent', function(self, event, ...)
     end
 end);
 
-local getPlaystyleStringFixed = function(playstyle, activityInfo)
+C_LFGList.GetPlaystyleString = function(playstyle, activityInfo)
     if not ( activityInfo and playstyle and playstyle ~= 0
             and C_LFGList.GetLfgCategoryInfo(activityInfo.categoryID).showPlaystyleDropdown ) then
         return nil
@@ -145,8 +145,4 @@ local getPlaystyleStringFixed = function(playstyle, activityInfo)
     return globalStringPrefix and _G[globalStringPrefix .. tostring(playstyle)] or nil
 end
 
-local activityIdOfArbitraryMythicPlusDungeon = 703
-if C_LFGList.IsPlayerAuthenticatedForLFG(activityIdOfArbitraryMythicPlusDungeon) then
-    C_LFGList.GetPlaystyleString = getPlaystyleStringFixed
-    LFGListEntryCreation_SetTitleFromActivityInfo = function(_) end
-end
+LFGListEntryCreation_SetTitleFromActivityInfo = function(_) end
