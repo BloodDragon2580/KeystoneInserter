@@ -1,7 +1,9 @@
 ## Interface: 90200
 ## Title:|cffd6266cKeystoneInserter|r
 ## Author: BloddDragon2580
-## Version: 1.0
+## Version: 1.1
 ## Notes: Your key stone will be inserted automatically
+## SavedVariables: KeystoneInserterDB
 
 core.lua
+fill.lua
