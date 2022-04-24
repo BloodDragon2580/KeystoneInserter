@@ -1,3 +1,5 @@
+local myName, me = ...
+local L = me.L
 local KeystoneButton, ToggleButton;
 
 local mapIdToActivity = {
@@ -37,13 +39,13 @@ local function UpdateState(self, filters, categoryID, groupID, activityID, fromU
         KeystoneButton:SetShown(true);
 
         if KeystoneInserterDB.auto then
-            ToggleButton:SetText('|cff66ff6eON|r');
+            ToggleButton:SetText(L["ON"]);
 
             LFGListEntryCreation_Select(LFGListFrame.EntryCreation, nil, nil, nil, mapIdToActivity[KeystoneButton.mapId], true);
             LFGListFrame.EntryCreation.Name:SetFocus();
             KeystoneButton.LevelText:SetText(KeystoneButton.level);
         else
-            ToggleButton:SetText('|cffff6666OFF|r');
+            ToggleButton:SetText(L["OFF"]);
         end
     else
         KeystoneButton.LevelText:SetText('');
@@ -97,13 +99,13 @@ ToggleButton:SetScript('OnClick', function(self)
     KeystoneInserterDB.auto = not KeystoneInserterDB.auto;
 
     if KeystoneInserterDB.auto then
-        self:SetText('|cff66ff6eON|r');
+        self:SetText(L["ON"]);
 
         LFGListEntryCreation_Select(LFGListFrame.EntryCreation, nil, nil, nil, mapIdToActivity[KeystoneButton.mapId]);
         LFGListFrame.EntryCreation.Name:SetFocus();
         KeystoneButton.LevelText:SetText(KeystoneButton.level);
     else
-        self:SetText('|cffff6666OFF|r');
+        self:SetText(L["OFF"]);
     end
 end);
 
