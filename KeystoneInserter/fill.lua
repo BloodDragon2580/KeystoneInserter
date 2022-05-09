@@ -3,14 +3,16 @@ local L = me.L
 local KeystoneButton, ToggleButton;
 
 local mapIdToActivity = {
-    [375] = 703, -- MISTS
-    [376] = 713, -- NW
-    [377] = 695, -- DOS
-    [378] = 699, -- HOA
-    [379] = 691, -- PF
-    [380] = 705, -- SD
-    [381] = 709, -- SOA
-    [382] = 717, -- TOP
+    [375] = 703, -- Mists of Tirna Scithe
+    [376] = 713, -- The Necrotic Wake
+    [377] = 695, -- De Other Side
+    [378] = 699, -- Halls of Atonement
+    [379] = 691, -- Plaguefall
+    [380] = 705, -- Sanguine Depths
+    [381] = 709, -- Spires of Ascension
+    [382] = 717, -- Theater of Pain
+    [391] = 1016, -- Tazavesh: Streets of Wonder
+    [392] = 1017, -- Tazavesh: So'leah's Gambit
 };
 
 local keystoneLink = '|cffa335ee|Hkeystone:%s:%s:%s:%s:%s:%s:%s|h' .. _G.CHALLENGE_MODE_KEYSTONE_HYPERLINK .. '|h|r';
