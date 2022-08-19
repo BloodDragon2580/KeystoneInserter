@@ -1,7 +1,7 @@
-## Interface: 90205
+## Interface: 90207
 ## Title:|cffd6266cKeystoneInserter|r
 ## Author: BloddDragon2580
-## Version: 1.5
+## Version: 1.6
 ## Notes: Your key stone will be inserted automatically
 ## SavedVariables: KeystoneInserterDB
 
