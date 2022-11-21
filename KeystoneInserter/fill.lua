@@ -3,6 +3,29 @@ local L = me.L
 local KeystoneButton, ToggleButton;
 
 local mapIdToActivity = {
+-- Legion dungeons
+    [197] = 459, -- Eye of Azshara
+    [198] = 460, -- Darkheart Thicket
+    [206] = 462, -- Neltharion's Lair
+    [199] = 463, -- Black Rook Hold
+    [207] = 464, -- Vault of the Wardens
+    [210] = 466, -- Court of Stars
+
+-- Battle for Azeroth dungeons
+    [244] = 502, -- Atal'Dazar
+    [250] = 504, -- Temple of Sethraliss
+    [251] = 507, -- The Underrot
+    [247] = 510, -- The MOTHERLODE
+    [249] = 514, -- Kings' Rest
+    [245] = 518, -- Freehold
+    [252] = 522, -- Shrine of the Storm
+    [246] = 526, -- Tol Dagor
+    [248] = 530, -- Waycrest Manor
+    [353] = 534, -- Siege of Boralus
+    [369] = 679, -- Operation: Mechagon - Junkyard
+    [370] = 683, -- Operation: Mechagon - Workshop
+
+-- Shadowlands dungeons
     [375] = 703, -- Mists of Tirna Scithe
     [376] = 713, -- The Necrotic Wake
     [377] = 695, -- De Other Side
@@ -13,6 +36,22 @@ local mapIdToActivity = {
     [382] = 717, -- Theater of Pain
     [391] = 1016, -- Tazavesh: Streets of Wonder
     [392] = 1017, -- Tazavesh: So'leah's Gambit
+	
+-- Shadowland Season 4 dungeons
+    [166] = 183, -- Grimrail Depot
+    [169] = 180, -- Iron Docks
+    [227] = 471, -- Lower Karazahn
+    [234] = 473, -- Upper Karazhan
+
+-- Dragonflight dungeons
+    [402] = 1160, -- Algeth'ar Academy
+    [405] = 1164, -- Brackenhide Hollow
+    [406] = 1168, -- Halls of Infusion
+    [404] = 1172, -- Neltharus
+    [399] = 1176, -- Ruby Life Pools
+    [401] = 1180, -- The Azure Vault
+    [400] = 1184, -- The Nokhud Offensive
+    [403] = 1188, -- Uldaman: Legacy of Tyr
 };
 
 local keystoneLink = '|cffa335ee|Hkeystone:%s:%s:%s:%s:%s:%s:%s|h' .. _G.CHALLENGE_MODE_KEYSTONE_HYPERLINK .. '|h|r';
