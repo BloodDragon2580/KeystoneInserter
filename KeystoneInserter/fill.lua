@@ -52,6 +52,13 @@ local mapIdToActivity = {
     [401] = 1180, -- The Azure Vault
     [400] = 1184, -- The Nokhud Offensive
     [403] = 1188, -- Uldaman: Legacy of Tyr
+
+-- Dragonflight Season 1 dungeons	
+    [165] = 1193 -- Shadowmoon Burial Grounds (Warlords)
+    [2] = 1192 -- Temple of the Jade Serpent (Warlords)
+    [200] = 461 -- Halls of Valor (Legion)
+    [210] = 466 -- Court of Stars (Legion)
+	
 };
 
 local keystoneLink = '|cffa335ee|Hkeystone:%s:%s:%s:%s:%s:%s:%s|h' .. _G.CHALLENGE_MODE_KEYSTONE_HYPERLINK .. '|h|r';
