@@ -1,8 +1,11 @@
-local IDs = {[138019] = true, [151086] = true, [158923] = true, [180653] = true}
+local IDs = {[138019] = 1, [151086] = 1, [158923] = 1, [180653] = 1, [186159] = 1}
+
 local KeystoneInserter = CreateFrame("Frame")
 KeystoneInserter:RegisterEvent("ADDON_LOADED")
 KeystoneInserter:SetScript("OnEvent", function(self, event, addon)
-	if (addon ~= "Blizzard_ChallengesUI") then return end
+	if (addon ~= "Blizzard_ChallengesUI") then
+		return
+	end
 	if ChallengesKeystoneFrame then
 		local Frame = ChallengesKeystoneFrame
 		Frame:HookScript("OnShow", function()
