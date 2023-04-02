@@ -3,13 +3,24 @@ local L = me.L
 local KeystoneButton, ToggleButton;
 
 local mapIdToActivity = {
--- Legion dungeons
+-- Mists of Pandaria
+    [2]   = 1192, -- Temple of the Jade Serpent
+	
+-- Warlords of Draenor
+    [165] = 1193, -- Shadowmoon Burial Grounds
+    [166] = 183, -- Grimrail Depot
+    [169] = 180, -- Iron Docks
+
+-- Legion
     [197] = 459, -- Eye of Azshara
     [198] = 460, -- Darkheart Thicket
-    [206] = 462, -- Neltharion's Lair
     [199] = 463, -- Black Rook Hold
+    [200] = 461, -- Halls of Valor
+    [206] = 462, -- Neltharion's Lair
     [207] = 464, -- Vault of the Wardens
     [210] = 466, -- Court of Stars
+    [227] = 471, -- Return to Karazhan: Lower
+    [234] = 473, -- Return to Karazhan: Upper
 
 -- Battle for Azeroth dungeons
     [244] = 502, -- Atal'Dazar
@@ -25,7 +36,7 @@ local mapIdToActivity = {
     [369] = 679, -- Operation: Mechagon - Junkyard
     [370] = 683, -- Operation: Mechagon - Workshop
 
--- Shadowlands dungeons
+-- Shadowlands
     [375] = 703, -- Mists of Tirna Scithe
     [376] = 713, -- The Necrotic Wake
     [377] = 695, -- De Other Side
@@ -36,28 +47,17 @@ local mapIdToActivity = {
     [382] = 717, -- Theater of Pain
     [391] = 1016, -- Tazavesh: Streets of Wonder
     [392] = 1017, -- Tazavesh: So'leah's Gambit
-	
--- Shadowland Season 4 dungeons
-    [166] = 183, -- Grimrail Depot
-    [169] = 180, -- Iron Docks
-    [227] = 471, -- Lower Karazahn
-    [234] = 473, -- Upper Karazhan
 
--- Dragonflight dungeons
+    -- Dragonflight
+    [399] = 1176, -- Ruby Life Pools
+    [400] = 1184, -- The Nokhud Offensive
+    [401] = 1180, -- The Azure Vault
     [402] = 1160, -- Algeth'ar Academy
+    [403] = 1188, -- Uldaman: Legacy of Tyr
+    [404] = 1172, -- Neltharus
     [405] = 1164, -- Brackenhide Hollow
     [406] = 1168, -- Halls of Infusion
-    [404] = 1172, -- Neltharus
-    [399] = 1176, -- Ruby Life Pools
-    [401] = 1180, -- The Azure Vault
-    [400] = 1184, -- The Nokhud Offensive
-    [403] = 1188, -- Uldaman: Legacy of Tyr
-
--- Dragonflight Season 1 dungeons	
-    [165] = 1193, -- Shadowmoon Burial Grounds (Warlords)
-    [2] = 1192, -- Temple of the Jade Serpent (Warlords)
-    [200] = 461, -- Halls of Valor (Legion)
-    [210] = 466, -- Court of Stars (Legion)
+    [438] = 1195, -- Vortex Pinnacle
 	
 };
 
