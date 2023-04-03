@@ -1,7 +1,7 @@
 ## Interface: 100007
 ## Title:|cffd6266cKeystoneInserter|r
 ## Author: BloddDragon2580
-## Version: 2.8
+## Version: 2.9
 ## Notes: Your key stone will be inserted automatically
 ## SavedVariables: KeystoneInserterDB
 
