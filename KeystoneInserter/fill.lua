@@ -3,13 +3,18 @@ local L = me.L
 local KeystoneButton, ToggleButton;
 
 local mapIdToActivity = {
+-- Cataclysm
+    [438] = 1195, -- Vortex Pinnacle
+    [456]   = 1274, -- Throne of the Tides
+	
 -- Mists of Pandaria
     [2]   = 1192, -- Temple of the Jade Serpent
 	
 -- Warlords of Draenor
     [165] = 1193, -- Shadowmoon Burial Grounds
-    [166] = 183, -- Grimrail Depot
-    [169] = 180, -- Iron Docks
+    [166] = 183,  -- Grimrail Depot
+    [168] = 184,  -- The Everbloom
+    [169] = 180,  -- Iron Docks
 
 -- Legion
     [197] = 459, -- Eye of Azshara
@@ -57,7 +62,8 @@ local mapIdToActivity = {
     [404] = 1172, -- Neltharus
     [405] = 1164, -- Brackenhide Hollow
     [406] = 1168, -- Halls of Infusion
-    [438] = 1195, -- Vortex Pinnacle
+    [463] = 1247, -- Dawn of the Infinite: Galakrond's Fall
+    [464] = 1248, -- Dawn of the Infinite: Murozond's Rise
 	
 };
 
