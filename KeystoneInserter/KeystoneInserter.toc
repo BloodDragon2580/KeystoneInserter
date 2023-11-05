@@ -1,7 +1,7 @@
-## Interface: 100107
+## Interface: 100200
 ## Title:|cffd6266cKeystoneInserter|r
 ## Author: BloddDragon2580
-## Version: 3.6
+## Version: 3.7
 ## Notes: Your key stone will be inserted automatically
 ## SavedVariables: KeystoneInserterDB
 ## IconTexture: Interface\AddOns\KeystoneInserter\Media\Texture\logo
