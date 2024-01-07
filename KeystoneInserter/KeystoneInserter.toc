@@ -1,7 +1,7 @@
 ## Interface: 100200
 ## Title:|cffd6266cKeystoneInserter|r
 ## Author: BloddDragon2580
-## Version: 3.9
+## Version: 4.0
 ## Notes: Your key stone will be inserted automatically
 ## SavedVariables: KeystoneInserterDB
 ## IconTexture: Interface\AddOns\KeystoneInserter\Media\Texture\logo
@@ -32,3 +32,4 @@ Language\ruRU.lua
 
 core.lua
 fill.lua
+remember.lua
