@@ -66,17 +66,15 @@ local mapIdToActivity = {
     [464] = 1248, -- Dawn of the Infinite: Murozond's Rise
 
     -- The War Within
-    [500] = 2669, -- City of Threads
-    [501] = 2660, -- Ara-Kara, City of Echoes
-    [502] = 2652, -- Stonevault
-    [503] = 2662, -- Dawnbreaker
-    [504] = 2648, -- The Rookery
-    [505] = 2651, -- Darkflame Cleft
+    [499] = 2649, -- Priory of the Sacred Flame
+    [500] = 2648, -- The Rookery
+    [501] = 2652, -- Stonevault
+    [502] = 2669, -- City of Threads
+    [503] = 2660, -- Ara-Kara, City of Echoes
+    [504] = 2651, -- Darkflame Cleft
+    [505] = 2662, -- Dawnbreaker
     [506] = 2661, -- Cinderbrew Brewery
-    [507] = 2649, -- Priory of the Sacred Flame
-    [508] = 670,  -- Grim Batol
-    [509] = 1822, -- Seige of Boralus (Alliance)
-    [510] = 1822, -- Seige of Boralus (Horde)
+    [507] = 670,  -- Grim Batol
 
 };
 
