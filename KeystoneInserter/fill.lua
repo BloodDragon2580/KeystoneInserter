@@ -75,6 +75,7 @@ local mapIdToActivity = {
     [505] = 2662, -- Dawnbreaker
     [506] = 2661, -- Cinderbrew Brewery
     [507] = 670,  -- Grim Batol
+    [525] = 2773, -- Operation: Floodgate
 
 };
 
