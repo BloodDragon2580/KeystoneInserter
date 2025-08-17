@@ -76,7 +76,7 @@ local mapIdToActivity = {
     [506] = 2661, -- Cinderbrew Brewery
     [507] = 670,  -- Grim Batol
     [525] = 2773, -- Operation: Floodgate
-
+    [542] = 2830,  -- Eco-Dome Al'dani
 };
 
 local keystoneLink = '|cffa335ee|Hkeystone:%s:%s:%s:%s:%s:%s:%s|h' .. _G.CHALLENGE_MODE_KEYSTONE_HYPERLINK .. '|h|r';
