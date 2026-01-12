@@ -1,7 +1,7 @@
 ## Interface: 120001
 ## Title:|cffd6266cKeystoneInserter|r
 ## Author: BloddDragon2580
-## Version: 12.2
+## Version: 12.3
 ## Notes: Your key stone will be inserted automatically
 ## Notes-ruRU: Автоматически вставляет Ваш ключ в Чашу силы
 ## SavedVariables: KeystoneInserterDB
